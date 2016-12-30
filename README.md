@@ -12,6 +12,11 @@ Tensorflow implementation of [YOLO](https://arxiv.org/pdf/1506.02640.pdf), inclu
 
 2. Download Pascal VOC dataset, we call the directory `PASCAL_VOC`
 	```Shell
+	mkdir data
+	cd data
+	wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar
+	tar -xvzf VOCtrainval_06-Nov-2007.tar
+	cd ..
 	ln -s $PASCAL_VOC$ data/pascal_voc
 	```
 
